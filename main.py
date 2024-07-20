@@ -1,5 +1,5 @@
 #packages
-from flask import Flask, render_template, request, redirect, send_file
+from flask import Flask, request, redirect, send_file
 
 #extractors
 from extractors.remoteok import extract_remoteok_jobs
@@ -14,7 +14,7 @@ app = Flask("JobScrapper")
 #Home page
 @app.route("/")
 def home():
-  return render_template("home.html")
+  return send_file("static/home.html")
 
 
 db = {}
@@ -33,7 +33,7 @@ def search():
     jobs = extract_remoteok_jobs(keyword)
     db[keyword] = jobs
 
-  return render_template("search.html", keyword=keyword, jobs=jobs)
+  return send_file("static/search.html", keyword=keyword, jobs=jobs)
 
 
 #Exporting CSV file
