@@ -1,7 +1,7 @@
 # Job Search Web Scraper
-![Screenshot 2024-09-12 152442](https://github.com/user-attachments/assets/cf8b0fa1-f377-4867-a697-52dffabf3565)
+![Screenshot 2024-09-12 152442](https://github.com/user-attachments/assets/cd53ee8a-c476-4c48-abfb-41d63f25a61b)
 
-![Screenshot 2024-09-12 152502](https://github.com/user-attachments/assets/166cef0f-6068-4b5d-b837-ad4a424b0dac)
+![Screenshot 2024-09-12 152502](https://github.com/user-attachments/assets/df4ff05b-574d-4e12-b5e2-1754524ec63b)
 
 
 Flask Link: https://replit.com/@orane5050/Python#main.py
